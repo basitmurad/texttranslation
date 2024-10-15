@@ -46,6 +46,7 @@ class _HomePageState extends State<HomePage> {
     super.dispose();
   }
 
+  ///safadfad
   Future<void> _initializeCamera() async {
     final cameras = await availableCameras();
     final CameraDescription camera = cameras.first;
